@@ -127,6 +127,13 @@ $messages['eu'] = array(
 	'i18ntags-desc' => 'Dagoen edozein hizkuntzako zenbakien formatua, gramatika eta pluralen i18n funtziora sar zaitez',
 );
 
+/** Persian (فارسی)
+ * @author ZxxZxxZ
+ */
+$messages['fa'] = array(
+	'i18ntags-desc' => 'دسترسی به توابع i18n برای شکل‌بندی ارقام، دستور زبان و حالت جمع در هر زبان ممکن',
+);
+
 /** Finnish (Suomi)
  * @author Mobe
  * @author Nike
@@ -254,6 +261,13 @@ $messages['ms'] = array(
 	'i18ntags-desc' => 'Mengakses fungsi pengantarabangsaan untuk pemformatan nombor, tatabahasa dan bentuk jamak dalam sebarang bahasa yang ada',
 );
 
+/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+ * @author Jon Harald Søby
+ */
+$messages['nb'] = array(
+	'i18ntags-desc' => 'Få tilgang til internasjonaliseringsfunksjoner for nummerformatering, grammatikk og flertall i alle tilgjengelige språk',
+);
+
 /** Low German (Plattdüütsch)
  * @author Slomox
  */
@@ -273,13 +287,6 @@ $messages['nl'] = array(
  */
 $messages['nn'] = array(
 	'i18ntags-desc' => 'Gjev tilgjenge til internasjonaliseringsfunksjonar for talformatering, grammatikk og fleiral i alle tilgjengelege språk',
-);
-
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
- * @author Jon Harald Søby
- */
-$messages['nb'] = array(
-	'i18ntags-desc' => 'Få tilgang til internasjonaliseringsfunksjoner for nummerformatering, grammatikk og flertall i alle tilgjengelige språk',
 );
 
 /** Occitan (Occitan)
