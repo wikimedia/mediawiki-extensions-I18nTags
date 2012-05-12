@@ -284,6 +284,7 @@ $messages['nl'] = array(
 
 /** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
  * @author Harald Khan
+ * @author Njardarlogar
  */
 $messages['nn'] = array(
 	'i18ntags-desc' => 'Gjev tilgjenge til internasjonaliseringsfunksjonar for talformatering, grammatikk og fleiral i alle tilgjengelege språk',
