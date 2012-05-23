@@ -55,6 +55,11 @@ $magicWords['de'] = array(
 	'languagename' => array( 0, 'sprachenname' ),
 );
 
+/** Zazaki (Zazaki) */
+$magicWords['diq'] = array(
+	'languagename' => array( 0, 'nameyzıwani' ),
+);
+
 /** Esperanto (Esperanto) */
 $magicWords['eo'] = array(
 	'languagename' => array( 0, 'lingvonomo' ),
@@ -68,6 +73,11 @@ $magicWords['es'] = array(
 /** Estonian (Eesti) */
 $magicWords['et'] = array(
 	'languagename' => array( 0, 'keelenimetus' ),
+);
+
+/** Persian (فارسی) */
+$magicWords['fa'] = array(
+	'languagename' => array( 0, 'نام_زبان', 'نام‌زبان' ),
 );
 
 /** French (Français) */
@@ -147,7 +157,7 @@ $magicWords['ps'] = array(
 
 /** Romanian (Română) */
 $magicWords['ro'] = array(
-	'languagename' => array( 0, 'numelimba', 'languagename' ),
+	'languagename' => array( 0, 'numelimba' ),
 );
 
 /** Russian (Русский) */
@@ -182,7 +192,7 @@ $magicWords['tr'] = array(
 
 /** Ukrainian (Українська) */
 $magicWords['uk'] = array(
-	'languagename' => array( 0, 'назвамови', 'названиеязыка', 'languagename' ),
+	'languagename' => array( 0, 'назвамови', 'названиеязыка' ),
 );
 
 /** Vietnamese (Tiếng Việt) */
