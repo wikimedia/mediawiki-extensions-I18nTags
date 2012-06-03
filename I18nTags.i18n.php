@@ -226,6 +226,13 @@ $messages['ja'] = array(
 	'i18ntags-desc' => '対応言語における数値書式、文法、複数形に関するi18n関数へのアクセスを提供する',
 );
 
+/** Korean (한국어)
+ * @author 아라
+ */
+$messages['ko'] = array(
+	'i18ntags-desc' => '사용 가능한 언어에 숫자 서식, 문법과 복수형에 대한 i18n 기능에 접근',
+);
+
 /** Colognian (Ripoarisch)
  * @author Purodha
  */
