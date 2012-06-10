@@ -432,6 +432,13 @@ $messages['vi'] = array(
 	'i18ntags-desc' => 'Truy cập các hàm quốc tế hóa về định dạng số, ngữ pháp, và biến cách trong các ngôn ngữ có sẵn',
 );
 
+/** Walloon (walon)
+ * @author Srtxg
+ */
+$messages['wa'] = array(
+	'i18ntags-desc' => "Permete l' accès åzès fonccions i18n pol cogne des limeros, les cognes di croejhete et des plurials sorlon tchaeke lingaedje",
+);
+
 /** Cantonese (粵語)
  * @author Shinjiman
  */
