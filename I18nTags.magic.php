@@ -30,12 +30,12 @@ $magicWords['arz'] = array(
 	'languagename' => array( 0, 'اسم_اللغة', 'languagename' ),
 );
 
-/** Breton (Brezhoneg) */
+/** Breton (brezhoneg) */
 $magicWords['br'] = array(
 	'languagename' => array( 0, 'anvyezh' ),
 );
 
-/** Bosnian (Bosanski) */
+/** Bosnian (bosanski) */
 $magicWords['bs'] = array(
 	'languagename' => array( 0, 'imejezika' ),
 );
@@ -45,7 +45,7 @@ $magicWords['ce'] = array(
 	'languagename' => array( 0, 'меттацlе', 'названиеязыка', 'languagename' ),
 );
 
-/** Czech (Česky) */
+/** Czech (česky) */
 $magicWords['cs'] = array(
 	'languagename' => array( 0, 'názevjazyka', 'languagename' ),
 );
@@ -65,12 +65,12 @@ $magicWords['eo'] = array(
 	'languagename' => array( 0, 'lingvonomo' ),
 );
 
-/** Spanish (Español) */
+/** Spanish (español) */
 $magicWords['es'] = array(
 	'languagename' => array( 0, 'nombreidioma', 'nombredeidioma' ),
 );
 
-/** Estonian (Eesti) */
+/** Estonian (eesti) */
 $magicWords['et'] = array(
 	'languagename' => array( 0, 'keelenimetus' ),
 );
@@ -80,17 +80,17 @@ $magicWords['fa'] = array(
 	'languagename' => array( 0, 'نام_زبان', 'نام‌زبان' ),
 );
 
-/** French (Français) */
+/** French (français) */
 $magicWords['fr'] = array(
 	'languagename' => array( 0, 'nomlangue' ),
 );
 
-/** Franco-Provençal (Arpetan) */
+/** Franco-Provençal (arpetan) */
 $magicWords['frp'] = array(
 	'languagename' => array( 0, 'nom_de_lengoua' ),
 );
 
-/** Italian (Italiano) */
+/** Italian (italiano) */
 $magicWords['it'] = array(
 	'languagename' => array( 0, 'nomelingua' ),
 );
@@ -98,6 +98,11 @@ $magicWords['it'] = array(
 /** Japanese (日本語) */
 $magicWords['ja'] = array(
 	'languagename' => array( 0, '言語名' ),
+);
+
+/** Korean (한국어) */
+$magicWords['ko'] = array(
+	'languagename' => array( 0, '언어이름' ),
 );
 
 /** Colognian (Ripoarisch) */
@@ -115,7 +120,7 @@ $magicWords['lad'] = array(
 	'languagename' => array( 0, 'nombredelingua', 'nombreidioma', 'nombredeidioma', 'languagename' ),
 );
 
-/** Macedonian (Македонски) */
+/** Macedonian (македонски) */
 $magicWords['mk'] = array(
 	'languagename' => array( 0, 'именајазик' ),
 );
@@ -130,7 +135,7 @@ $magicWords['mr'] = array(
 	'languagename' => array( 0, 'भाषानाव', 'languagename' ),
 );
 
-/** Norwegian Bokmål (‪Norsk (bokmål)‬) */
+/** Norwegian Bokmål (‪norsk (bokmål)‬) */
 $magicWords['nb'] = array(
 	'languagename' => array( 0, 'språknavn' ),
 );
@@ -140,12 +145,12 @@ $magicWords['nl'] = array(
 	'languagename' => array( 0, 'taalnaam' ),
 );
 
-/** Norwegian Nynorsk (‪Norsk (nynorsk)‬) */
+/** Norwegian Nynorsk (‪norsk (nynorsk)‬) */
 $magicWords['nn'] = array(
 	'languagename' => array( 0, 'språknamn', 'languagename' ),
 );
 
-/** Polish (Polski) */
+/** Polish (polski) */
 $magicWords['pl'] = array(
 	'languagename' => array( 0, 'nazwajęzyka' ),
 );
@@ -155,32 +160,32 @@ $magicWords['ps'] = array(
 	'languagename' => array( 0, 'ژبنوم', 'languagename' ),
 );
 
-/** Romanian (Română) */
+/** Romanian (română) */
 $magicWords['ro'] = array(
 	'languagename' => array( 0, 'numelimba' ),
 );
 
-/** Russian (Русский) */
+/** Russian (русский) */
 $magicWords['ru'] = array(
 	'languagename' => array( 0, 'названиеязыка', 'название_языка' ),
 );
 
-/** Albanian (Shqip) */
+/** Albanian (shqip) */
 $magicWords['sq'] = array(
 	'languagename' => array( 0, 'emriigjuhës' ),
 );
 
-/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬) */
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬) */
 $magicWords['sr-ec'] = array(
 	'languagename' => array( 0, 'имејезика', 'име_језика' ),
 );
 
-/** Serbian (Latin script) (‪Srpski (latinica)‬) */
+/** Serbian (Latin script) (‪srpski (latinica)‬) */
 $magicWords['sr-el'] = array(
 	'languagename' => array( 0, 'imejezika', 'ime_jezika' ),
 );
 
-/** Swedish (Svenska) */
+/** Swedish (svenska) */
 $magicWords['sv'] = array(
 	'languagename' => array( 0, 'språknamn', 'languagename' ),
 );
@@ -190,7 +195,7 @@ $magicWords['tr'] = array(
 	'languagename' => array( 0, 'diladı', 'dilismi', 'lisanadı', 'lisanismi' ),
 );
 
-/** Ukrainian (Українська) */
+/** Ukrainian (українська) */
 $magicWords['uk'] = array(
 	'languagename' => array( 0, 'назвамови', 'названиеязыка' ),
 );
@@ -200,7 +205,7 @@ $magicWords['vi'] = array(
 	'languagename' => array( 0, 'tênngônngữ' ),
 );
 
-/** Simplified Chinese (‪中文(简体)‬) */
+/** Simplified Chinese (‪中文（简体）‬) */
 $magicWords['zh-hans'] = array(
 	'languagename' => array( 0, '语言名称' ),
 );
