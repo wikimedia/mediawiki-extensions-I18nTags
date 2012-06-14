@@ -35,7 +35,7 @@ $messages['arz'] = array(
 	'i18ntags-desc' => 'يسمح بالوصول إلى وظيفة الترجمة لصيغ الأرقام، قواعد اللغة والجمع فى أى لغة متوفرة',
 );
 
-/** Asturian (Asturianu)
+/** Asturian (asturianu)
  * @author Esbardu
  */
 $messages['ast'] = array(
@@ -49,42 +49,42 @@ $messages['be-tarask'] = array(
 	'i18ntags-desc' => 'Доступ да функцыяў лякалізацыі фарматаваньня лікаў, граматыкі і множнага ліку для любой даступнай мовы',
 );
 
-/** Bulgarian (Български)
+/** Bulgarian (български)
  * @author DCLXVI
  */
 $messages['bg'] = array(
 	'i18ntags-desc' => 'Достъп до функциите за i18n за форматиране на числа, граматика и множествено число на всички налични езици',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fulup
  */
 $messages['br'] = array(
 	'i18ntags-desc' => "Aotren a ra ar moned d'an arc'hwelioù i18n evit furmad an niveroù, ar yezhadur hag al liester e kement yezh pledet ganti.",
 );
 
-/** Bosnian (Bosanski)
+/** Bosnian (bosanski)
  * @author CERminator
  */
 $messages['bs'] = array(
 	'i18ntags-desc' => 'Pristupa i18n funkcijama za formatiranje brojeva, gramatike i množine na svim dostupnim jezicima',
 );
 
-/** Catalan (Català)
+/** Catalan (català)
  * @author Paucabot
  */
 $messages['ca'] = array(
 	'i18ntags-desc' => 'Accediu a les funcions i18n per a la formatació de nombres, gramàtica i plural en qualsevol llengua disponible',
 );
 
-/** Czech (Česky)
+/** Czech (česky)
  * @author Matěj Grabovský
  */
 $messages['cs'] = array(
 	'i18ntags-desc' => 'Přístup k i18n funkcím  pro formátování čísel, gramatiku a plurály v jakémkoliv z dostupných jazyků',
 );
 
-/** Danish (Dansk)
+/** Danish (dansk)
  * @author Peter Alberti
  */
 $messages['da'] = array(
@@ -113,14 +113,14 @@ $messages['el'] = array(
 	'i18ntags-desc' => 'Να επιτραπεί η πρόσβαση στις συναρτήσεις i18n για τη μορφοποίηση αριθμών, τη γραμματική και τον πληθυντικό σε κάθε διαθέσιμη γλώσσα',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Sanbec
  */
 $messages['es'] = array(
 	'i18ntags-desc' => 'Acceso a las funciones i18n para el formato numérico, gramatical y plurales en cualquier idioma disponible',
 );
 
-/** Basque (Euskara)
+/** Basque (euskara)
  * @author Theklan
  */
 $messages['eu'] = array(
@@ -134,7 +134,7 @@ $messages['fa'] = array(
 	'i18ntags-desc' => 'دسترسی به توابع i18n برای شکل‌بندی ارقام، دستور زبان و حالت جمع در هر زبان ممکن',
 );
 
-/** Finnish (Suomi)
+/** Finnish (suomi)
  * @author Mobe
  * @author Nike
  */
@@ -142,7 +142,7 @@ $messages['fi'] = array(
 	'i18ntags-desc' => 'Tarjoaa i18n-elementtejä numeroiden muotoiluun, kielioppiin ja monikkoihin millä tahansa saatavilla olevalla kielellä.',
 );
 
-/** French (Français)
+/** French (français)
  * @author Verdy p
  */
 $messages['fr'] = array(
@@ -191,14 +191,14 @@ $messages['hsb'] = array(
 	'i18ntags-desc' => 'Přistup k funkcijam i18n za formatowanje ličbow, gramatiku a plural w kóždej k dispoziciji stejacej rěči',
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author Gondnok
  */
 $messages['hu'] = array(
 	'i18ntags-desc' => 'Hozzáférés a számformátum, nyelvtani- és többesszám-definíciók beállításaihoz az összes elérhető nyelven.',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -212,7 +212,7 @@ $messages['id'] = array(
 	'i18ntags-desc' => 'Mengakses fungsi-fungsi i18n untuk pemformatan nomor, tatabahasa, dan bentuk jamak di berbagai bahasa yang tersedia',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author Pietrodn
  */
 $messages['it'] = array(
@@ -247,7 +247,7 @@ $messages['lb'] = array(
 	'i18ntags-desc' => "Zougrëff op d'i18n-Fonctioune fir d'Formatéiere vun Zuelen, d'Grammatik- an d'Méizuelregelen an allen disponibele Sproochen",
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -289,7 +289,7 @@ $messages['nl'] = array(
 	'i18ntags-desc' => 'Geeft toegang tot de i18n-functies voor nummeropmaak, grammatica en meervoud in alle beschikbare talen',
 );
 
-/** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
+/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
  * @author Harald Khan
  * @author Njardarlogar
  */
@@ -297,14 +297,14 @@ $messages['nn'] = array(
 	'i18ntags-desc' => 'Gjev tilgjenge til internasjonaliseringsfunksjonar for talformatering, grammatikk og fleiral i alle tilgjengelege språk',
 );
 
-/** Occitan (Occitan)
+/** Occitan (occitan)
  * @author Cedric31
  */
 $messages['oc'] = array(
 	'i18ntags-desc' => 'Permet l’accès de las foncions i18n pel format dels nombres, la gramatica e lo plural dins cada lenga disponibla.',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author Sp5uhe
  */
 $messages['pl'] = array(
@@ -318,7 +318,7 @@ $messages['pms'] = array(
 	'i18ntags-desc' => 'Dòvra le funsion i18n për formaté ij nùmer, la gramàtica e ij pluraj an minca lenga possìbil',
 );
 
-/** Portuguese (Português)
+/** Portuguese (português)
  * @author Hamilton Abreu
  * @author Malafaya
  */
@@ -326,49 +326,49 @@ $messages['pt'] = array(
 	'i18ntags-desc' => 'Acede às funções de internacionalização (i18n) para formatação de números, gramática e plural em qualquer língua disponível',
 );
 
-/** Brazilian Portuguese (Português do Brasil)
+/** Brazilian Portuguese (português do Brasil)
  * @author Eduardo.mps
  */
 $messages['pt-br'] = array(
 	'i18ntags-desc' => 'Acessa as funções de i18n para formatação de números, gramática e plural em qualquer língua disponível',
 );
 
-/** Tarandíne (Tarandíne)
+/** tarandíne (tarandíne)
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
 	'i18ntags-desc' => "Trase jndr'à funzione i18n p'a formattazione de le numere, grammateche e plurele jndr'à tutte le lenghe",
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author Александр Сигачёв
  */
 $messages['ru'] = array(
 	'i18ntags-desc' => 'Доступ к функциям интернационализации, таким как, форматирование чисел, преобразование грамматической формы, выбор формы множественного числа, для любого доступного языка',
 );
 
-/** Slovak (Slovenčina)
+/** Slovak (slovenčina)
  * @author Helix84
  */
 $messages['sk'] = array(
 	'i18ntags-desc' => 'Prístup k i18n funkciám na formátovanie čísel, gramatiku a plurál v ktoromkoľvek z dostupných jazykov',
 );
 
-/** Slovenian (Slovenščina)
+/** Slovenian (slovenščina)
  * @author Dbc334
  */
 $messages['sl'] = array(
 	'i18ntags-desc' => 'Dostop do funkcij i18n za oblikovanje števil, slovnice in množine v vseh razpoložljivih jezikih',
 );
 
-/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
  * @author Михајло Анђелковић
  */
 $messages['sr-ec'] = array(
 	'i18ntags-desc' => 'Приступа i18n функцијама за форматирање бројева, граматику и множину у било ком доступном језику',
 );
 
-/** Serbian (Latin script) (‪Srpski (latinica)‬)
+/** Serbian (Latin script) (‪srpski (latinica)‬)
  * @author Liangent
  */
 $messages['sr-el'] = array(
@@ -382,7 +382,7 @@ $messages['stq'] = array(
 	'i18ntags-desc' => 'Tougriep ap do i18n-Funktione tou ju Taalenformatierenge, Pluroal- un Grammatikbieldenge in älke ferföichboare Sproake',
 );
 
-/** Swedish (Svenska)
+/** Swedish (svenska)
  * @author Lejonel
  * @author M.M.S.
  */
@@ -411,14 +411,14 @@ $messages['tr'] = array(
 	'i18ntags-desc' => 'Mevcut dillerde sayı formatlama, gramer ve çoğul için i18n fonksiyonlarına erişin',
 );
 
-/** Ukrainian (Українська)
+/** Ukrainian (українська)
  * @author Prima klasy4na
  */
 $messages['uk'] = array(
 	'i18ntags-desc' => 'Доступ до функцій інтернаціоналізації i18n для форматування чисел, перетворень і вибору граматичних форм для будь-якої доступної мови',
 );
 
-/** Vèneto (Vèneto)
+/** vèneto (vèneto)
  * @author Candalua
  */
 $messages['vec'] = array(
@@ -446,14 +446,14 @@ $messages['yue'] = array(
 	'i18ntags-desc' => '提供存取任何語言嘅數字格式、文法同複數型等i18n有關資料',
 );
 
-/** Simplified Chinese (‪中文(简体)‬)
+/** Simplified Chinese (‪中文（简体）‬)
  * @author Alex S.H. Lin
  */
 $messages['zh-hans'] = array(
 	'i18ntags-desc' => '提供存取任何语言的数字格式、文法和复数型等i18n相关信息',
 );
 
-/** Traditional Chinese (‪中文(繁體)‬)
+/** Traditional Chinese (‪中文（繁體）‬)
  * @author Alex S.H. Lin
  * @author Mark85296341
  */
