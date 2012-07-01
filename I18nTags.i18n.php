@@ -42,7 +42,7 @@ $messages['ast'] = array(
 	'i18ntags-desc' => 'Accede a les funciones i18n pal formatu de númberu, gramática y plurales en cualesquier llingua disponible',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  */
 $messages['be-tarask'] = array(
@@ -99,7 +99,7 @@ $messages['de'] = array(
 	'i18ntags-desc' => 'Ermöglicht den Zugriff auf die I18N-Funktionen zur Zahlenformatierung sowie der Plural- und Grammatikbildung in jeder verfügbaren Sprache',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -149,7 +149,7 @@ $messages['fr'] = array(
 	'i18ntags-desc' => 'Permet l’accès aux fonctions i18n pour le formatage des nombres, la grammaire et les accords de pluriel dans chaque langue disponible',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Toliño
  */
 $messages['gl'] = array(
@@ -184,7 +184,7 @@ $messages['hil'] = array(
 	'i18ntags-desc' => 'Isudlon ang i18n panksiyon para pormatan numeru, gramar kag ang plural sa bisan anu nga lengwahe',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
