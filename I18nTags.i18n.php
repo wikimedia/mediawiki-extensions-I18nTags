@@ -268,9 +268,7 @@ $messages['ms'] = array(
 	'i18ntags-desc' => 'Mengakses fungsi pengantarabangsaan untuk pemformatan nombor, tatabahasa dan bentuk jamak dalam sebarang bahasa yang ada',
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
- * @author Jon Harald Søby
- */
+/** Norwegian Bokmål (‪norsk (bokmål)‬) */
 $messages['nb'] = array(
 	'i18ntags-desc' => 'Få tilgang til internasjonaliseringsfunksjoner for nummerformatering, grammatikk og flertall i alle tilgjengelige språk',
 );

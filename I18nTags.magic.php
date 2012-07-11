@@ -40,7 +40,7 @@ $magicWords['bs'] = array(
 	'languagename' => array( 0, 'imejezika' ),
 );
 
-/** Chechen (Нохчийн) */
+/** Chechen (нохчийн) */
 $magicWords['ce'] = array(
 	'languagename' => array( 0, 'меттацlе', 'названиеязыка', 'languagename' ),
 );
