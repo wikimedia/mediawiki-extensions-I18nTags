@@ -100,6 +100,11 @@ $magicWords['ja'] = array(
 	'languagename' => array( 0, '言語名' ),
 );
 
+/** Georgian (ქართული) */
+$magicWords['ka'] = array(
+	'languagename' => array( 0, 'ენის_სახელი' ),
+);
+
 /** Korean (한국어) */
 $magicWords['ko'] = array(
 	'languagename' => array( 0, '언어이름' ),
