@@ -3,30 +3,31 @@
 class I18nTags {
 	public static function formatNumber( $data, $params, $parser ) {
 		$lang = self::languageObject( $params );
-		return $lang->formatNum($data);
+		return $lang->formatNum( $data );
 	}
 
 	public static function grammar( $data, $params, $parser ) {
-		$case = isset($params['case']) ? $params['case'] : '';
-		$lang = self::languageObject($params);
-		return $lang->convertGrammar($data, $case);
+		$case = isset( $params['case'] ) ? $params['case'] : '';
+		$lang = self::languageObject( $params );
+		return $lang->convertGrammar( $data, $case );
 	}
 
 	public static function plural( $data, $params, $parser ) {
 		list( $from, $to ) = self::getRange( @$params['n'] );
-		$args = explode('|', $data);
+		$args = explode( '|', $data );
 		$lang = self::languageObject( $params );
 
-		$format = isset($params['format']) ? $params['format'] : '%s';
+		$format = isset( $params['format'] ) ? $params['format'] : '%s';
 		$format = str_replace( '\n', "\n", $format );
 
 		$s = '';
-		for( $i = $from; $i <= $to; $i++ ) {
+		for ( $i = $from; $i <= $to; $i++ ) {
 			$t = $lang->convertPlural( $i, $args );
-			$fmtn = $lang->formatNum($i);
+			$fmtn = $lang->formatNum( $i );
+			// @todo FIXME: Uses deprecated wfMsg* method.
 			$s .= str_replace(
-				array( '%d', '%s'), 
-				array( $i, wfMsgReplaceArgs( $t, array($fmtn) ) ),
+				array( '%d', '%s' ),
+				array( $i, wfMsgReplaceArgs( $t, array( $fmtn ) ) ),
 				$format
 			);
 		}
@@ -48,18 +49,17 @@ class I18nTags {
 			}
 		}
 		$predata = isset( $predata[2] ) ? $predata[2] : isset( $predata[1] ) ? $predata[1] : $predata[0];
-		return "<b>$predata$inside</b>$data";
+		return "<strong>$predata$inside</strong>$data";
 	}
 
 	public static function languageName( &$parser, $code = '', $outputLanguage = '' ) {
-		global $wgLang;
 		if ( !$code ) {
 			return '';
 		}
 		if ( !$outputLanguage ) {
 			$outputLanguage = $parser->getOptions()->getUserLang();
 		}
-		$cldr   = is_callable( array( 'LanguageNames', 'getNames' ));
+		$cldr   = is_callable( array( 'LanguageNames', 'getNames' ) );
 		if ( $outputLanguage !== 'native' && $cldr ) {
 			$languages = LanguageNames::getNames( $outputLanguage,
 				LanguageNames::FALLBACK_NORMAL,
@@ -69,7 +69,7 @@ class I18nTags {
 			$languages = Language::getLanguageNames( false );
 		}
 
-		return isset($languages[$code]) ? $languages[$code] : $code;
+		return isset( $languages[$code] ) ? $languages[$code] : $code;
 	}
 
 	/**
@@ -83,7 +83,7 @@ class I18nTags {
 		return isset( $params['lang'] ) ? Language::factory( $params['lang'] ) : $wgContLang;
 	}
 
-	public static function getRange( $s, $min = false, $max = false) {
+	public static function getRange( $s, $min = false, $max = false ) {
 		$matches = array();
 		if ( preg_match( '/(\d+)-(\d+)/', $s, $matches ) ) {
 			$from = $matches[1];
