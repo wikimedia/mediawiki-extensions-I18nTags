@@ -152,7 +152,7 @@ $magicWords['nl'] = array(
 
 /** Norwegian Nynorsk (‪norsk (nynorsk)‬) */
 $magicWords['nn'] = array(
-	'languagename' => array( 0, 'språknamn', 'languagename' ),
+	'languagename' => array( 0, 'språknamn' ),
 );
 
 /** Polish (polski) */
