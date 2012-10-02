@@ -48,7 +48,7 @@ $messages['ast'] = array(
 	'i18ntags-desc' => 'Accede a les funciones i18n pal formatu de númberu, gramática y plurales en cualesquier llingua disponible',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  */
 $messages['be-tarask'] = array(
@@ -274,7 +274,7 @@ $messages['ms'] = array(
 	'i18ntags-desc' => 'Mengakses fungsi pengantarabangsaan untuk pemformatan nombor, tatabahasa dan bentuk jamak dalam sebarang bahasa yang ada',
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬) */
+/** Norwegian Bokmål (norsk (bokmål)‎) */
 $messages['nb'] = array(
 	'i18ntags-desc' => 'Få tilgang til internasjonaliseringsfunksjoner for nummerformatering, grammatikk og flertall i alle tilgjengelige språk',
 );
@@ -293,7 +293,7 @@ $messages['nl'] = array(
 	'i18ntags-desc' => 'Geeft toegang tot de i18n-functies voor nummeropmaak, grammatica en meervoud in alle beschikbare talen',
 );
 
-/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
+/** Norwegian Nynorsk (norsk (nynorsk)‎)
  * @author Harald Khan
  * @author Njardarlogar
  */
@@ -365,14 +365,14 @@ $messages['sl'] = array(
 	'i18ntags-desc' => 'Dostop do funkcij i18n za oblikovanje števil, slovnice in množine v vseh razpoložljivih jezikih',
 );
 
-/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Михајло Анђелковић
  */
 $messages['sr-ec'] = array(
 	'i18ntags-desc' => 'Приступа i18n функцијама за форматирање бројева, граматику и множину у било ком доступном језику',
 );
 
-/** Serbian (Latin script) (‪srpski (latinica)‬)
+/** Serbian (Latin script) (srpski (latinica)‎)
  * @author Liangent
  */
 $messages['sr-el'] = array(
@@ -450,14 +450,14 @@ $messages['yue'] = array(
 	'i18ntags-desc' => '提供存取任何語言嘅數字格式、文法同複數型等i18n有關資料',
 );
 
-/** Simplified Chinese (‪中文（简体）‬)
+/** Simplified Chinese (中文（简体）‎)
  * @author Alex S.H. Lin
  */
 $messages['zh-hans'] = array(
 	'i18ntags-desc' => '提供存取任何语言的数字格式、文法和复数型等i18n相关信息',
 );
 
-/** Traditional Chinese (‪中文（繁體）‬)
+/** Traditional Chinese (中文（繁體）‎)
  * @author Alex S.H. Lin
  * @author Mark85296341
  */
