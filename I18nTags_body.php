@@ -24,7 +24,6 @@ class I18nTags {
 		for ( $i = $from; $i <= $to; $i++ ) {
 			$t = $lang->convertPlural( $i, $args );
 			$fmtn = $lang->formatNum( $i );
-			// @todo FIXME: Uses deprecated wfMsg* method.
 			$s .= str_replace(
 				array( '%d', '%s' ),
 				array( $i, wfMsgReplaceArgs( $t, array( $fmtn ) ) ),
