@@ -274,7 +274,8 @@ $messages['ms'] = array(
 	'i18ntags-desc' => 'Mengakses fungsi pengantarabangsaan untuk pemformatan nombor, tatabahasa dan bentuk jamak dalam sebarang bahasa yang ada',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎) */
+/** Norwegian Bokmål (norsk (bokmål)‎)
+ */
 $messages['nb'] = array(
 	'i18ntags-desc' => 'Få tilgang til internasjonaliseringsfunksjoner for nummerformatering, grammatikk og flertall i alle tilgjengelige språk',
 );
@@ -464,4 +465,3 @@ $messages['zh-hans'] = array(
 $messages['zh-hant'] = array(
 	'i18ntags-desc' => '提供存取任何語言的數位格式、文法和複數型等 i18n 相關資訊',
 );
-
