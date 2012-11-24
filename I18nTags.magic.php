@@ -222,3 +222,8 @@ $magicWords['vi'] = array(
 $magicWords['zh-hans'] = array(
 	'languagename' => array( 0, '语言名称' ),
 );
+
+/** Traditional Chinese (中文（繁體）‎) */
+$magicWords['zh-hant'] = array(
+	'languagename' => array( 0, '語言名稱' ),
+);
