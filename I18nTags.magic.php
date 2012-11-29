@@ -208,6 +208,11 @@ $magicWords['tr'] = array(
 	'languagename' => array( 0, 'diladı', 'dilismi', 'lisanadı', 'lisanismi' ),
 );
 
+/** Tuvinian (тыва дыл) */
+$magicWords['tyv'] = array(
+	'languagename' => array( 0, 'дылдыңады' ),
+);
+
 /** Ukrainian (українська) */
 $magicWords['uk'] = array(
 	'languagename' => array( 0, 'назвамови', 'названиеязыка' ),
