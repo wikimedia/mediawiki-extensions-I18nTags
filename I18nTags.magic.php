@@ -123,6 +123,11 @@ $magicWords['ku-latn'] = array(
 	'languagename' => array( 0, 'navê_ziman' ),
 );
 
+/** Cornish (kernowek) */
+$magicWords['kw'] = array(
+	'languagename' => array( 0, 'hanowanyeth' ),
+);
+
 /** Ladino (Ladino) */
 $magicWords['lad'] = array(
 	'languagename' => array( 0, 'nombredelingua', 'nombreidioma', 'nombredeidioma', 'languagename' ),
