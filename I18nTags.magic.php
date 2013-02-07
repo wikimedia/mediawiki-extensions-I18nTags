@@ -148,7 +148,7 @@ $magicWords['mr'] = array(
 	'languagename' => array( 0, 'भाषानाव', 'languagename' ),
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎) */
+/** Norwegian Bokmål (norsk bokmål) */
 $magicWords['nb'] = array(
 	'languagename' => array( 0, 'språknavn' ),
 );
@@ -158,7 +158,7 @@ $magicWords['nl'] = array(
 	'languagename' => array( 0, 'taalnaam' ),
 );
 
-/** Norwegian Nynorsk (norsk (nynorsk)‎) */
+/** Norwegian Nynorsk (norsk nynorsk) */
 $magicWords['nn'] = array(
 	'languagename' => array( 0, 'språknamn' ),
 );
@@ -215,7 +215,7 @@ $magicWords['tr'] = array(
 
 /** Tuvinian (тыва дыл) */
 $magicWords['tyv'] = array(
-	'languagename' => array( 0, 'дылдыңады' ),
+	'languagename' => array( 0, 'дыл_ады' ),
 );
 
 /** Ukrainian (українська) */
