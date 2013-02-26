@@ -223,6 +223,11 @@ $magicWords['uk'] = array(
 	'languagename' => array( 0, 'назвамови', 'названиеязыка' ),
 );
 
+/** Uzbek (oʻzbekcha) */
+$magicWords['uz'] = array(
+	'languagename' => array( 0, 'tilnomi' ),
+);
+
 /** Vietnamese (Tiếng Việt) */
 $magicWords['vi'] = array(
 	'languagename' => array( 0, 'tênngônngữ' ),
