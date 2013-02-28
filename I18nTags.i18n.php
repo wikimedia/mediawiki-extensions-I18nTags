@@ -14,10 +14,11 @@ $messages['en'] = array(
 
 /** Message documentation (Message documentation)
  * @author Purodha
+ * @author Shirayuki
  * @author The Evil IP address
  */
 $messages['qqq'] = array(
-	'i18ntags-desc' => '{{desc}}',
+	'i18ntags-desc' => '{{desc|name=I18n Tags|url=http://www.mediawiki.org/wiki/Extension:I18nTags}}',
 );
 
 /** Afrikaans (Afrikaans)
