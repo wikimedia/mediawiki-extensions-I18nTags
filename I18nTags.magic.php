@@ -93,6 +93,11 @@ $magicWords['frp'] = array(
 	'languagename' => array( 0, 'nom_de_lengoua' ),
 );
 
+/** Hebrew (עברית) */
+$magicWords['he'] = array(
+	'languagename' => array( 0, 'שם_שפה' ),
+);
+
 /** Italian (italiano) */
 $magicWords['it'] = array(
 	'languagename' => array( 0, 'nomelingua' ),
@@ -220,7 +225,7 @@ $magicWords['tyv'] = array(
 
 /** Ukrainian (українська) */
 $magicWords['uk'] = array(
-	'languagename' => array( 0, 'назвамови', 'названиеязыка' ),
+	'languagename' => array( 0, 'назвамови' ),
 );
 
 /** Uzbek (oʻzbekcha) */
