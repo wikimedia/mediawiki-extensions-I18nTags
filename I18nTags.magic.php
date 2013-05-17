@@ -150,7 +150,7 @@ $magicWords['ml'] = array(
 
 /** Marathi (मराठी) */
 $magicWords['mr'] = array(
-	'languagename' => array( 0, 'भाषानाव', 'languagename' ),
+	'languagename' => array( 0, 'भाषानाव' ),
 );
 
 /** Norwegian Bokmål (norsk bokmål) */
