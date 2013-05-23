@@ -238,6 +238,11 @@ $magicWords['vi'] = array(
 	'languagename' => array( 0, 'tênngônngữ' ),
 );
 
+/** Yiddish (ייִדיש) */
+$magicWords['yi'] = array(
+	'languagename' => array( 0, 'שפראך-נאמען' ),
+);
+
 /** Simplified Chinese (中文（简体）‎) */
 $magicWords['zh-hans'] = array(
 	'languagename' => array( 0, '语言名称' ),
