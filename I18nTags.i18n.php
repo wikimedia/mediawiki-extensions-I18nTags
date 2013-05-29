@@ -156,6 +156,13 @@ $messages['fr'] = array(
 	'i18ntags-desc' => 'Permet l’accès aux fonctions i18n pour le formatage des nombres, la grammaire et les accords de pluriel dans chaque langue disponible',
 );
 
+/** Northern Frisian (Nordfriisk)
+ * @author Murma174
+ */
+$messages['frr'] = array(
+	'i18ntags-desc' => 'Diarmä könst dü üüb i18n-funktjuunen tugrip. Diar kön taalformooten, muartaalfurmen an gramatisk reegeln uun arke spriak fäästlaanj wurd.',
+);
+
 /** Galician (galego)
  * @author Toliño
  */
