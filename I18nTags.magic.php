@@ -98,6 +98,11 @@ $magicWords['he'] = array(
 	'languagename' => array( 0, 'שם_שפה' ),
 );
 
+/** Indonesian (Bahasa Indonesia) */
+$magicWords['id'] = array(
+	'languagename' => array( 0, 'bahasa' ),
+);
+
 /** Italian (italiano) */
 $magicWords['it'] = array(
 	'languagename' => array( 0, 'nomelingua' ),
@@ -136,6 +141,11 @@ $magicWords['kw'] = array(
 /** Ladino (Ladino) */
 $magicWords['lad'] = array(
 	'languagename' => array( 0, 'nombredelingua', 'nombreidioma', 'nombredeidioma', 'languagename' ),
+);
+
+/** Minangkabau (Baso Minangkabau) */
+$magicWords['min'] = array(
+	'languagename' => array( 0, 'bahasa' ),
 );
 
 /** Macedonian (македонски) */
