@@ -50,7 +50,7 @@ $magicWords['ce'] = array(
 
 /** Czech (česky) */
 $magicWords['cs'] = array(
-	'languagename' => array( 0, 'názevjazyka', 'languagename' ),
+	'languagename' => array( 0, 'názevjazyka' ),
 );
 
 /** German (Deutsch) */
