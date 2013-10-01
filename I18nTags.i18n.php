@@ -256,9 +256,10 @@ $messages['ksh'] = array(
 
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
+ * @author Soued031
  */
 $messages['lb'] = array(
-	'i18ntags-desc' => "Zougrëff op d'i18n-Fonctioune fir d'Formatéiere vun Zuelen, d'Grammatik- an d'Méizuelregelen an allen disponibele Sproochen",
+	'i18ntags-desc' => "Zougrëff op d'i18n-Funktioune fir d'Formatéiere vun Zuelen, d'Grammatik- an d'Méizuelregelen an allen disponibele Sproochen",
 );
 
 /** Macedonian (македонски)
