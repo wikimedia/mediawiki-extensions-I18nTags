@@ -245,7 +245,7 @@ $magicWords['uz'] = array(
 
 /** Vietnamese (Tiếng Việt) */
 $magicWords['vi'] = array(
-	'languagename' => array( 0, 'tênngônngữ' ),
+	'languagename' => array( 0, 'tên_ngôn_ngữ', 'tênngônngữ' ),
 );
 
 /** Yiddish (ייִדיש) */
