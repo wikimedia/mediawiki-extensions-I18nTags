@@ -30,7 +30,7 @@ $magicWords['arc'] = array(
 
 /** Egyptian Spoken Arabic (مصرى) */
 $magicWords['arz'] = array(
-	'languagename' => array( 0, 'اسم_اللغة', 'languagename' ),
+	'languagename' => array( 0, 'اسم_اللغة' ),
 );
 
 /** Breton (brezhoneg) */
