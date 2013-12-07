@@ -84,7 +84,7 @@ $messages['ca'] = array(
 	'i18ntags-desc' => 'Accediu a les funcions i18n per a la formatació de nombres, gramàtica i plural en qualsevol llengua disponible',
 );
 
-/** Czech (česky)
+/** Czech (čeština)
  * @author Matěj Grabovský
  */
 $messages['cs'] = array(
