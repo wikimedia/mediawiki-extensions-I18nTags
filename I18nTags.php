@@ -13,13 +13,14 @@ $wgExtensionCredits['parserhook'][] = array(
 	'path' => __FILE__,
 	'name' => 'Parser i18n tags',
 	'descriptionmsg' => 'i18ntags-desc',
-	'version' => '2012-08-16',
+	'version' => '2014-04-01',
 	'author' => 'Niklas Laxström',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:I18nTags',
 );
 
 $dir = dirname( __FILE__ ) . '/';
 $wgAutoloadClasses['I18nTags'] = $dir . 'I18nTags_body.php';
+$wgMessagesDirs['I18nTags'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['I18nTags'] = $dir . 'I18nTags.i18n.php';
 $wgExtensionMessagesFiles['I18nTagsMagic'] = $dir . 'I18nTags.magic.php';
 
