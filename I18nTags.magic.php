@@ -93,6 +93,11 @@ $magicWords['frp'] = array(
 	'languagename' => array( 0, 'nom_de_lengoua' ),
 );
 
+/** Hawaiian (Hawai`i) */
+$magicWords['haw'] = array(
+	'languagename' => array( 0, 'inoaʻōlelo', 'inoaōlelo', 'inoaolelo' ),
+);
+
 /** Hebrew (עברית) */
 $magicWords['he'] = array(
 	'languagename' => array( 0, 'שם_שפה' ),
