@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Dbc334"
-        ]
-    },
-    "i18ntags-desc": "Dostop do funkcij i18n za oblikovanje števil, slovnice in množine v vseh razpoložljivih jezikih"
+	"@metadata": {
+		"authors": [
+			"Dbc334"
+		]
+	},
+	"i18ntags-desc": "Dostop do funkcij i18n za oblikovanje števil, slovnice in množine v vseh razpoložljivih jezikih"
 }

@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Sanbec"
-        ]
-    },
-    "i18ntags-desc": "Acceso a las funciones i18n para el formato numérico, gramatical y plurales en cualquier idioma disponible"
+	"@metadata": {
+		"authors": [
+			"Sanbec"
+		]
+	},
+	"i18ntags-desc": "Acceso a las funciones i18n para el formato numérico, gramatical y plurales en cualquier idioma disponible"
 }

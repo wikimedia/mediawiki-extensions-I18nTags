@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Vito Genovese"
-        ]
-    },
-    "i18ntags-desc": "Mevcut dillerde sayı formatlama, gramer ve çoğul için i18n fonksiyonlarına erişin"
+	"@metadata": {
+		"authors": [
+			"Vito Genovese"
+		]
+	},
+	"i18ntags-desc": "Mevcut dillerde sayı formatlama, gramer ve çoğul için i18n fonksiyonlarına erişin"
 }

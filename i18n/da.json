@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Peter Alberti"
-        ]
-    },
-    "i18ntags-desc": "Giver adgang til internationaliseringsfunktioner for talformatering, grammatik og flertalsformer i alle tilgængelige sprog"
+	"@metadata": {
+		"authors": [
+			"Peter Alberti"
+		]
+	},
+	"i18ntags-desc": "Giver adgang til internationaliseringsfunktioner for talformatering, grammatik og flertalsformer i alle tilgængelige sprog"
 }
