@@ -223,7 +223,7 @@ $magicWords['sv'] = array(
 	'languagename' => array( 0, 'språknamn', 'languagename' ),
 );
 
-/** толышә зывон (толышә зывон) */
+/** Talysh (толышә зывон) */
 $magicWords['tly'] = array(
 	'languagename' => array( 0, 'зывони_ном' ),
 );
