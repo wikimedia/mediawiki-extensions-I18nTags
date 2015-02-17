@@ -243,7 +243,7 @@ $magicWords['uk'] = array(
 	'languagename' => array( 0, 'назвамови' ),
 );
 
-/** Uzbek (oʻzbekcha) */
+/** Uzbek (oʻzbekcha/ўзбекча) */
 $magicWords['uz'] = array(
 	'languagename' => array( 0, 'tilnomi' ),
 );
