@@ -3,8 +3,9 @@
 		"authors": [
 			"Purodha",
 			"Shirayuki",
-			"The Evil IP address"
+			"The Evil IP address",
+			"Umherirrender"
 		]
 	},
-	"i18ntags-desc": "{{desc|name=I18n Tags|url=http://www.mediawiki.org/wiki/Extension:I18nTags}}"
+	"i18ntags-desc": "{{desc|name=I18n Tags|url=https://www.mediawiki.org/wiki/Extension:I18nTags}}"
 }
