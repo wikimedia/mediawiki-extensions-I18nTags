@@ -93,6 +93,11 @@ $magicWords['frp'] = array(
 	'languagename' => array( 0, 'nom_de_lengoua' ),
 );
 
+/** Western Frisian (Frysk) */
+$magicWords['fy'] = array(
+	'languagename' => array( 0, 'taalnamme' ),
+);
+
 /** Hawaiian (Hawai`i) */
 $magicWords['haw'] = array(
 	'languagename' => array( 0, 'inoaʻōlelo', 'inoaōlelo', 'inoaolelo' ),
