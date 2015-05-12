@@ -28,7 +28,7 @@ $magicWords['arc'] = array(
 	'languagename' => array( 0, 'ܫܡܐ_ܕܠܫܢܐ' ),
 );
 
-/** Egyptian Spoken Arabic (مصرى) */
+/** Egyptian Arabic (مصرى) */
 $magicWords['arz'] = array(
 	'languagename' => array( 0, 'اسم_اللغة' ),
 );
@@ -88,7 +88,7 @@ $magicWords['fr'] = array(
 	'languagename' => array( 0, 'nomlangue' ),
 );
 
-/** Franco-Provençal (arpetan) */
+/** Arpitan (arpetan) */
 $magicWords['frp'] = array(
 	'languagename' => array( 0, 'nom_de_lengoua' ),
 );
