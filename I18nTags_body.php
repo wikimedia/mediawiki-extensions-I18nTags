@@ -1,19 +1,29 @@
 <?php
 
 class I18nTags {
+	public static function onParserFirstCallInit( Parser $parser ) {
+		$parser->setHook( 'formatnum', [ __CLASS__, 'formatNumber' ] );
+		$parser->setHook( 'grammar', [ __CLASS__, 'grammar' ] );
+		$parser->setHook( 'plural', [ __CLASS__, 'plural' ] );
+		$parser->setHook( 'linktrail', [ __CLASS__, 'linktrail' ] );
+		$parser->setFunctionHook( 'languagename',  [ __CLASS__, 'languageName' ] );
+	}
+
 	public static function formatNumber( $data, $params, $parser ) {
 		$lang = self::languageObject( $params );
+
 		return $lang->formatNum( $data );
 	}
 
 	public static function grammar( $data, $params, $parser ) {
 		$case = isset( $params['case'] ) ? $params['case'] : '';
 		$lang = self::languageObject( $params );
+
 		return $lang->convertGrammar( $data, $case );
 	}
 
 	public static function plural( $data, $params, $parser ) {
-		list( $from, $to ) = self::getRange( @$params['n'] );
+		list( $from, $to ) = self::getRange( isset( $params['n'] ) ?  $params['n'] : '' );
 		$args = explode( '|', $data );
 		$lang = self::languageObject( $params );
 
@@ -25,11 +35,12 @@ class I18nTags {
 			$t = $lang->convertPlural( $i, $args );
 			$fmtn = $lang->formatNum( $i );
 			$s .= str_replace(
-				array( '%d', '%s' ),
-				array( $i, wfMsgReplaceArgs( $t, array( $fmtn ) ) ),
+				[ '%d', '%s' ],
+				[ $i, wfMsgReplaceArgs( $t, [ $fmtn ] ) ],
 				$format
 			);
 		}
+
 		return $s;
 	}
 
@@ -39,15 +50,16 @@ class I18nTags {
 
 		$inside = '';
 		if ( '' != $data ) {
-			$predata = array();
+			$predata = [];
 			preg_match( '/^\[\[([^\]|]+)(\|[^\]]+)?\]\](.*)$/sDu', $data, $predata );
-			$m = array();
+			$m = [];
 			if ( preg_match( $regex, $predata[3], $m ) ) {
 				$inside = $m[1];
 				$data = $m[2];
 			}
 		}
 		$predata = isset( $predata[2] ) ? $predata[2] : isset( $predata[1] ) ? $predata[1] : $predata[0];
+
 		return "<strong>$predata$inside</strong>$data";
 	}
 
@@ -58,7 +70,7 @@ class I18nTags {
 		if ( !$outputLanguage ) {
 			$outputLanguage = $parser->getOptions()->getUserLang();
 		}
-		$cldr   = is_callable( array( 'LanguageNames', 'getNames' ) );
+		$cldr = is_callable( [ 'LanguageNames', 'getNames' ] );
 		if ( $outputLanguage !== 'native' && $cldr ) {
 			$languages = LanguageNames::getNames( $outputLanguage,
 				LanguageNames::FALLBACK_NORMAL,
@@ -73,17 +85,18 @@ class I18nTags {
 
 	/**
 	 * Static helper that returns either content or user interface language object.
-	 * @param $params Parameters passed to to the parser tag
-	 * @return Language Instance of class Language
-	 * Globals: $wgContLang.
+	 *
+	 * @param array $params Parameters passed to to the parser tag
+	 * @return Language
 	 */
-	public static function languageObject( $params ) {
+	public static function languageObject( array $params ) {
 		global $wgContLang;
+
 		return isset( $params['lang'] ) ? Language::factory( $params['lang'] ) : $wgContLang;
 	}
 
 	public static function getRange( $s, $min = false, $max = false ) {
-		$matches = array();
+		$matches = [];
 		if ( preg_match( '/(\d+)-(\d+)/', $s, $matches ) ) {
 			$from = $matches[1];
 			$to = $matches[2];
@@ -92,7 +105,9 @@ class I18nTags {
 		}
 
 		if ( $from > $to ) {
-			$UNDEFINED = $to; $to = $from; $from = $UNDEFINED;
+			$UNDEFINED = $to;
+			$to = $from;
+			$from = $UNDEFINED;
 		}
 		if ( $min !== false ) {
 			$from = max( $min, $from );
@@ -101,6 +116,6 @@ class I18nTags {
 			$to = min( $max, $to );
 		}
 
-		return array( $from, $to );
+		return [ $from, $to ];
 	}
 }

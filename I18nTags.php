@@ -1,41 +1,15 @@
 <?php
-/**
- * Some tags to access i18n function in language files
- *
- * @file
- * @ingroup Extensions
- * @author Niklas Laxström
- */
-
-if ( !defined( 'MEDIAWIKI' ) ) die();
-
-$wgExtensionCredits['parserhook'][] = array(
-	'path' => __FILE__,
-	'name' => 'Parser i18n tags',
-	'descriptionmsg' => 'i18ntags-desc',
-	'version' => '2014-04-01',
-	'author' => 'Niklas Laxström',
-	'url' => 'https://www.mediawiki.org/wiki/Extension:I18nTags',
-);
-
-$dir = dirname( __FILE__ ) . '/';
-$wgAutoloadClasses['I18nTags'] = $dir . 'I18nTags_body.php';
-$wgMessagesDirs['I18nTags'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['I18nTags'] = $dir . 'I18nTags.i18n.php';
-$wgExtensionMessagesFiles['I18nTagsMagic'] = $dir . 'I18nTags.magic.php';
-
-$wgHooks['ParserFirstCallInit'][] = 'efI18nTagsInit';
-
-/**
- * @param $parser Parser
- * @return bool
- */
-function efI18nTagsInit( &$parser ) {
-	$class = 'I18nTags';
-	$parser->setHook( 'formatnum', array( $class, 'formatNumber' )  );
-	$parser->setHook( 'grammar',   array( $class, 'grammar' ) );
-	$parser->setHook( 'plural',    array( $class, 'plural' ) );
-	$parser->setHook( 'linktrail', array( $class, 'linktrail' ) );
-	$parser->setFunctionHook( 'languagename',  array( $class, 'languageName' ) );
-	return true;
+if ( function_exists( 'wfLoadExtension' ) ) {
+	wfLoadExtension( 'I18nTags' );
+	// Keep i18n globals so mergeMessageFileList.php doesn't break
+	$wgMessagesDirs['I18nTags'] = __DIR__ . '/i18n';
+	$wgExtensionMessagesFiles['I18nTagsMagic'] = __DIR__ . '/I18nTags.magic.php';
+	/*wfWarn(
+		'Deprecated PHP entry point used for I18nTags extension. ' .
+		'Please use wfLoadExtension instead, see ' .
+		'https://www.mediawiki.org/wiki/Extension_registration for more details.'
+	);*/
+	return;
+} else {
+	die( 'This version of the I18nTags extension requires MediaWiki 1.25+' );
 }
