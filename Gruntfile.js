@@ -17,6 +17,6 @@ module.exports = function ( grunt ) {
 		}
 	} );
 
-	grunt.registerTask( 'test', [' jsonlint', 'banana' ] );
+	grunt.registerTask( 'test', [ 'jsonlint', 'banana' ] );
 	grunt.registerTask( 'default', 'test' );
 };
