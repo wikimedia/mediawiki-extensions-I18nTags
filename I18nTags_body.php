@@ -101,7 +101,7 @@ class I18nTags {
 			$from = $matches[1];
 			$to = $matches[2];
 		} else {
-			$from = $to = (int) $s;
+			$from = $to = (int)$s;
 		}
 
 		if ( $from > $to ) {
