@@ -23,7 +23,7 @@ class I18nTags {
 	}
 
 	public static function plural( $data, $params, $parser ) {
-		list( $from, $to ) = self::getRange( isset( $params['n'] ) ?  $params['n'] : '' );
+		list( $from, $to ) = self::getRange( isset( $params['n'] ) ? $params['n'] : '' );
 		$args = explode( '|', $data );
 		$lang = self::languageObject( $params );
 
