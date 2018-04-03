@@ -5,6 +5,7 @@
 	"url": "https://www.mediawiki.org/wiki/Extension:I18nTags",
 	"descriptionmsg": "i18ntags-desc",
 	"type": "parserhook",
+	"license-name": "GPL-2.0-or-later",
 	"AutoloadClasses": {
 		"I18nTags": "I18nTags_body.php"
 	},
