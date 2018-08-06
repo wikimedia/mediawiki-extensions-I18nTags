@@ -9,20 +9,22 @@ class I18nTags {
 		$parser->setFunctionHook( 'languagename',  [ __CLASS__, 'languageName' ] );
 	}
 
-	public static function formatNumber( $data, $params, $parser ) {
+	public static function formatNumber( $data, $params, $parser, $frame ) {
 		$lang = self::languageObject( $params );
 
-		return $lang->formatNum( $data );
+		$text = $lang->formatNum( $data );
+		return $parser->recursiveTagParse( $text, $frame );
 	}
 
-	public static function grammar( $data, $params, $parser ) {
+	public static function grammar( $data, $params, $parser, $frame ) {
 		$case = isset( $params['case'] ) ? $params['case'] : '';
 		$lang = self::languageObject( $params );
 
-		return $lang->convertGrammar( $data, $case );
+		$text = $lang->convertGrammar( $data, $case );
+		return $parser->recursiveTagParse( $text, $frame );
 	}
 
-	public static function plural( $data, $params, $parser ) {
+	public static function plural( $data, $params, $parser, $frame ) {
 		list( $from, $to ) = self::getRange( isset( $params['n'] ) ? $params['n'] : '' );
 		$args = explode( '|', $data );
 		$lang = self::languageObject( $params );
@@ -41,10 +43,10 @@ class I18nTags {
 			);
 		}
 
-		return $s;
+		return $parser->recursiveTagParse( $s, $frame );
 	}
 
-	public static function linktrail( $data, $params, $parser ) {
+	public static function linktrail( $data, $params, $parser, $frame ) {
 		$lang = self::languageObject( $params );
 		$regex = $lang->linkTrail();
 
@@ -60,7 +62,8 @@ class I18nTags {
 		}
 		$predata = isset( $predata[2] ) ? $predata[2] : isset( $predata[1] ) ? $predata[1] : $predata[0];
 
-		return "<strong>$predata$inside</strong>$data";
+		$text = "<strong>$predata$inside</strong>$data";
+		return $parser->recursiveTagParse( $text, $frame );
 	}
 
 	public static function languageName( &$parser, $code = '', $outputLanguage = '' ) {
