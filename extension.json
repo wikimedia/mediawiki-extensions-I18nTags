@@ -13,9 +13,7 @@
 		"I18nTagsMagic": "I18nTags.magic.php"
 	},
 	"Hooks": {
-		"ParserFirstCallInit": [
-			"I18nTags::onParserFirstCallInit"
-		]
+		"ParserFirstCallInit": "I18nTags::onParserFirstCallInit"
 	},
 	"MessagesDirs": {
 		"I18nTags": [
