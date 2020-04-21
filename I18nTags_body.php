@@ -60,7 +60,9 @@ class I18nTags {
 				$data = $m[2];
 			}
 		}
-		$predata = isset( $predata[2] ) ? $predata[2] : isset( $predata[1] ) ? $predata[1] : $predata[0];
+		$predata = isset( $predata[2] )
+			? $predata[2]
+			: ( isset( $predata[1] ) ? $predata[1] : $predata[0] );
 
 		$text = "<strong>$predata$inside</strong>$data";
 		return $parser->recursiveTagParse( $text, $frame );
