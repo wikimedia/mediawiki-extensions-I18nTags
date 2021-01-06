@@ -51,7 +51,7 @@ class I18nTags {
 		$regex = $lang->linkTrail();
 
 		$inside = '';
-		if ( '' != $data ) {
+		if ( $data != '' ) {
 			$predata = [];
 			preg_match( '/^\[\[([^\]|]+)(\|[^\]]+)?\]\](.*)$/sDu', $data, $predata );
 			$m = [];
