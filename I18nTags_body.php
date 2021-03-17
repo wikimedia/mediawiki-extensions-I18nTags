@@ -1,5 +1,7 @@
 <?php
 
+use MediaWiki\MediaWikiServices;
+
 class I18nTags {
 	public static function onParserFirstCallInit( Parser $parser ) {
 		$parser->setHook( 'formatnum', [ __CLASS__, 'formatNumber' ] );
@@ -10,7 +12,7 @@ class I18nTags {
 	}
 
 	public static function formatNumber( $data, array $params, Parser $parser, PPFrame $frame ) {
-		$lang = self::languageObject( $params );
+		$lang = self::languageObject( $params['language'] ?? null ) ?? $parser->getTargetLanguage();
 
 		$text = $lang->formatNum( $data );
 		return $parser->recursiveTagParse( $text, $frame );
@@ -18,16 +20,16 @@ class I18nTags {
 
 	public static function grammar( $data, array $params, Parser $parser, PPFrame $frame ) {
 		$case = isset( $params['case'] ) ? $params['case'] : '';
-		$lang = self::languageObject( $params );
+		$lang = self::languageObject( $params['language'] ?? null ) ?? $parser->getTargetLanguage();
 
 		$text = $lang->convertGrammar( $data, $case );
 		return $parser->recursiveTagParse( $text, $frame );
 	}
 
 	public static function plural( $data, array $params, Parser $parser, PPFrame $frame ) {
-		list( $from, $to ) = self::getRange( isset( $params['n'] ) ? $params['n'] : '' );
+		[ $from, $to ] = self::getRange( isset( $params['n'] ) ? $params['n'] : '' );
 		$args = explode( '|', $data );
-		$lang = self::languageObject( $params );
+		$lang = self::languageObject( $params['language'] ?? null ) ?? $parser->getTargetLanguage();
 
 		$format = isset( $params['format'] ) ? $params['format'] : '%s';
 		$format = str_replace( '\n', "\n", $format );
@@ -47,7 +49,7 @@ class I18nTags {
 	}
 
 	public static function linktrail( $data, array $params, Parser $parser, PPFrame $frame ) {
-		$lang = self::languageObject( $params );
+		$lang = self::languageObject( $params['language'] ?? null ) ?? $parser->getTargetLanguage();
 		$regex = $lang->linkTrail();
 
 		$inside = '';
@@ -88,16 +90,14 @@ class I18nTags {
 		return isset( $languages[$code] ) ? $languages[$code] : $code;
 	}
 
-	/**
-	 * Static helper that returns either content or user interface language object.
-	 *
-	 * @param array $params Parameters passed to to the parser tag
-	 * @return Language
-	 */
-	public static function languageObject( array $params ) {
-		global $wgContLang;
+	public static function languageObject( ?string $input ): ?Language {
+		$services = MediaWikiServices::getInstance();
+		$factory = $services->getLanguageFactory();
+		$utils = $services->getLanguageNameUtils();
 
-		return isset( $params['lang'] ) ? Language::factory( $params['lang'] ) : $wgContLang;
+		if ( $input && $utils->isKnownLanguageTag( $input ) ) {
+			return $factory->getLanguage( $input );
+		}
 	}
 
 	public static function getRange( $s, $min = false, $max = false ) {

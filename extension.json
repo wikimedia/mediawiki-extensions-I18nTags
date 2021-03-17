@@ -1,11 +1,14 @@
 {
 	"name": "Parser i18n tags",
-	"version": "2018-08-06",
+	"version": "2021-03-17",
 	"author": "Niklas Laxström",
 	"url": "https://www.mediawiki.org/wiki/Extension:I18nTags",
 	"descriptionmsg": "i18ntags-desc",
 	"type": "parserhook",
 	"license-name": "GPL-2.0-or-later",
+	"requires": {
+		"MediaWiki": ">= 1.35.0"
+	},
 	"AutoloadClasses": {
 		"I18nTags": "I18nTags_body.php"
 	},
