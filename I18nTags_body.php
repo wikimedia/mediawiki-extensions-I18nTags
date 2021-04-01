@@ -98,6 +98,8 @@ class I18nTags {
 		if ( $input && $utils->isKnownLanguageTag( $input ) ) {
 			return $factory->getLanguage( $input );
 		}
+
+		return null;
 	}
 
 	public static function getRange( $s, $min = false, $max = false ) {
