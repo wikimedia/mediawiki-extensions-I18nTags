@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Vito Genovese"
+			"Vito Genovese",
+			"MuratTheTurkish"
 		]
 	},
-	"i18ntags-desc": "Mevcut dillerde sayı formatlama, gramer ve çoğul için i18n fonksiyonlarına erişin"
+	"i18ntags-desc": "Mevcut herhangi bir dilde sayı biçimlendirme, dil bilgisi ve çoğul için i18n işlevlerine erişin"
 }
