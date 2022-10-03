@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Dbc334"
+			"Dbc334",
+			"Eleassar"
 		]
 	},
-	"i18ntags-desc": "Dostop do funkcij i18n za oblikovanje števil, slovnice in množine v vseh razpoložljivih jezikih"
+	"i18ntags-desc": "Dostop do funkcij i18n za oblikovanje števil, slovnico in množino v vseh razpoložljivih jezikih"
 }
