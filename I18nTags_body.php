@@ -1,5 +1,6 @@
 <?php
 
+use MediaWiki\Languages\LanguageNameUtils;
 use MediaWiki\MediaWikiServices;
 
 class I18nTags {
@@ -84,7 +85,8 @@ class I18nTags {
 				LanguageNames::LIST_MW_AND_CLDR
 			);
 		} else {
-			$languages = Language::fetchLanguageNames( null, 'mw' );
+			$languages = MediaWikiServices::getInstance()->getLanguageNameUtils()
+				->getLanguageNames( LanguageNameUtils::AUTONYMS, LanguageNameUtils::DEFINED );
 		}
 
 		return isset( $languages[$code] ) ? $languages[$code] : $code;
