@@ -9,7 +9,7 @@ class I18nTags {
 		$parser->setHook( 'grammar', [ __CLASS__, 'grammar' ] );
 		$parser->setHook( 'plural', [ __CLASS__, 'plural' ] );
 		$parser->setHook( 'linktrail', [ __CLASS__, 'linktrail' ] );
-		$parser->setFunctionHook( 'languagename',  [ __CLASS__, 'languageName' ] );
+		$parser->setFunctionHook( 'languagename', [ __CLASS__, 'languageName' ] );
 	}
 
 	public static function formatNumber( $data, array $params, Parser $parser, PPFrame $frame ) {
