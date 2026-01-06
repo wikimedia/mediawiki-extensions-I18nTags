@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Eduardo.mps"
+			"Eduardo.mps",
+			"Fúlvio"
 		]
 	},
-	"i18ntags-desc": "Acessa as funções de i18n para formatação de números, gramática e plural em qualquer língua disponível"
+	"i18ntags-desc": "Acesso às funções de internacionalização (i18n) para formatação de números, gramática e plural em qualquer idioma disponível"
 }
